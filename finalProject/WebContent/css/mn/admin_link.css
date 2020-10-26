@@ -1,0 +1,76 @@
+.admin_link_container{
+	box-shadow: 2px 2px 5px lightgrey;
+	width: 500px;
+	margin-left: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.admin_link_container li{
+	border-style:ridge;
+	border-width:thin;
+	border-color:lightgrey;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.admin_link_container .ap{
+	font-family: 'Nanum Pen Script', cursive;
+	color:black;
+	text-decoration: none;
+	font-size:22pt;
+}
+
+.admin_link_container .ap:hover{
+	font-family: 'Nanum Pen Script', cursive;
+	color:white;
+	background-color: #e76f51;
+	text-decoration: none;
+	font-size:22pt;
+}
+
+/* For below 768px screen width */
+@media screen and (max-width: 768px) {
+    :root {
+        /* Font size */
+        --font-large: 30px;
+        --font-medium: 18px;
+        --font-regular: 16px;
+        --font-small: 14px;
+        --font-micro: 12px;
+    }
+
+    .navbar_toggle-btn {
+        display: block;
+        right: 16px;
+        font-size: var(--font-medium);
+    }
+
+    #navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: var(--color-light-brown);
+    }
+
+    .navbar_menu {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+    .navbar_menu.open {
+        display: block;
+    }
+
+    .section {
+        padding: 16px;
+        padding-top: 40px;
+    }
+
+    .menu_admin {
+        display: flex;
+        justify-content: center;
+    }
+
+}

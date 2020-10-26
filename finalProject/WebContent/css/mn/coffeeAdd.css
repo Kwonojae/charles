@@ -1,0 +1,71 @@
+.coffee_add_h2 {
+    font-size: 36pt;
+    color:black;
+    margin: 8px 0;
+    text-align:center;
+} 
+
+.menu_admin {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 50px 0;
+
+}
+
+.info_titleinput {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+
+.info_title {
+    width: 100px;
+}
+
+.info_input {
+    width: 200px;
+    height: 30px;
+}
+
+.info_textarea {
+    width: 200px;
+    height: 250px;
+}
+
+.info_input::placeholder,
+.info_textarea::placeholder {
+    font-size: var(--font-micro);
+    font-family: "Open Sans", sans-serif;
+}
+
+.coffeeadd_btn {
+    border: 1px solid var(--color-orange);
+    border-radius: var(--size-border-radius);
+    font-size: var(--font-regular);
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.coffeeadd_btn:hover {
+    background-color: var(--color-orange);
+    color: var(--color-white);
+    font-family: 'Roboto Slab', serif;
+}
+
+.sideadd_btn {
+    border: 1px solid var(--color-orange);
+    border-radius: var(--size-border-radius);
+    font-size: var(--font-regular);
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left:50%;
+    font-family: 'Roboto Slab', serif;
+}
+
+.sideadd_btn:hover {
+    background-color: var(--color-orange);
+    color: var(--color-white);
+    font-family: 'Roboto Slab', serif;
+}
